@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #f2f2f2; /* opcional para destacar el encabezado */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    padding: 10px;
+    font-size: 1.1rem;
+    color: #222; /* texto oscuro que se ve bien en fondo blanco */
+    border-radius: 8px;
+    /* Quitar fondo: ya no usamos background: orange */
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
